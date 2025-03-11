@@ -1,0 +1,405 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  /* background: linear-gradient(to bottom, #80FFDB, #5390d9); */
+  background-image: linear-gradient(120deg, #d5bceb 0%, #8dbceb 100%);
+  /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+  /* background-image: linear-gradient(to right, #fddb92 0%, #d1fdff 100%); */
+  /* background-image: linear-gradient(to right, #feada6 0%, #f5efef 100%); */
+  /* background-image: linear-gradient(to left, #64b3f4 0%, #c2e59c 100%); */
+}
+
+.container{
+  max-width:1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section{
+  padding: 40px, 0;
+}
+
+h1{
+  margin-bottom: 15px;
+}
+
+p{
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+header {
+  background-color: seagreen;
+  color: rgb(5, 0, 2);
+  padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio{
+  font-size: 50px;
+}
+
+.port{
+  height: 50px;
+}
+
+.logo {
+    font-size: x-large;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 8px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-item-resume{
+  border: 2px solid orangered;
+  display: flex ;
+  align-items: center;
+  padding: 2px 15px;
+  cursor: pointer;
+  border-radius: 13px;
+}
+
+.nav-item a:hover {
+    color: #ffcc00;
+}
+
+.paragraph{
+  background-color: rgb(17, 39, 27);
+  color: white;
+  padding: 30px 0;
+}
+
+.about{
+  margin-left: 30px;
+  padding-top: 25px;
+  font-size: 30px;
+}
+
+
+.highlight{
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.about-sec{
+  margin-left: 30px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-my-self{
+  margin-left: 30px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.shahid{
+  display: flex;
+  width: 200px;
+  height: 210px;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  border: 5x solid yellowgreen;
+}
+
+.skill-section{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skill-heading{
+  color:rgb(240, 75, 10);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.aboutskill{
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.skill-grid{
+  /* border: 2px solid black; */
+  /* background-color: white; */
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 15px 15px rgba(4, 0, 16, 0.05); */
+}
+
+.skill-part {
+  border: 3px solid orangered;
+  display: flex ;
+  align-items: center;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 13px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.skill-icon{
+  width: 16px;
+  height: 16px;
+  display: flex;
+  border-radius: 50%;
+  margin-right: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projectheading{
+  color: rgb(240, 75, 10);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.aboutproject{
+  
+  color: black;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.my-project{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-grid {
+  flex: 1;
+  max-width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.project-img {
+  height: 170px;
+  background-color: #0e0b50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img img {
+  width: 170px;
+  height: auto;
+  opacity: 0.4;
+}
+
+.detailproject{
+  padding: 20px;
+  text-align: left;
+}
+
+.projectname {  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #080651;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 8px;
+}
+
+.aboutprojectname {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.profile-section{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.profileheading{
+  color: rgb(240, 75, 10);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.aboutprofile{
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.github{
+  opacity: 0.9;
+  margin-bottom: 30px;
+  color: white;
+  border: none;
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: orangered;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.edu-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.education-heading {
+  color: rgb(240, 75, 10);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.abouteducation {
+  color: black;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.myeducation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.edu-box {
+  color: rgb(253, 254, 252);
+  /* flex: 1 0 calc(25% - 30px); */
+  max-width: calc(50% - 10px);
+  background-color: rgb(26, 54, 63);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 10px 15px rgba(68, 43, 142, 0.05);
+}
+
+.institution {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+
+.passout{
+  font-size: medium;
+   color: #32f107;
+   margin-bottom: 5px;
+}
+
+.classes{
+  color: #00ff91;
+  font-size: large;
+}
+
+.contact-section{
+  padding: 40px 0;
+  text-align: center;
+  background-color: #739dc8;
+}
+
+.contact-heading{
+  color: rgb(240, 75, 10);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.aboutcontact {
+  color: black;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-link {
+  border: 3px solid orangered;
+  display: flex ;
+  align-items: center;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 13px;
+  background-color: white;
+  gap: 5%;
+  text-decoration: none;
+}
+
+
